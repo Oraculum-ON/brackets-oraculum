@@ -1,0 +1,13 @@
+{
+    "name": "oraculum",
+    "title": "[+] Oraculum PHP Framework" ,
+    "description": "Brackets Plugin for Oraculum PHP Framework",
+    "homepage": "https://oraculum-on.github.io",
+    "version": "1.0.0",
+    "author": "Patrick Kaminski",
+    "license": "MIT",
+    "engines": {
+        "brackets": ">=1.0.0"
+    },
+    "keywords": ["php", "framework"]
+}

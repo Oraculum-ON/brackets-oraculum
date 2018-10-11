@@ -1,0 +1,249 @@
+use Oraculum\Alias;
+Alias::addAlias
+Alias::loadAlias
+Oraculum\Alias::addAlias
+Oraculum\Alias::loadAlias
+
+use Oraculum\App;
+new App()
+App::loadView
+App::loadControl
+App::loadModel
+App::checkDebug()
+App::loadView()->addTemplate()->loadPage();
+->setControlDir
+->setViewDir
+->setModelDir
+->start()
+new Oraculum\App()
+Oraculum\App::loadView
+Oraculum\App::loadControl
+Oraculum\App::loadModel
+Oraculum\App::checkDebug()
+Oraculum\App::loadView()->addTemplate()->loadPage();
+
+use Oraculum\Auth;
+new Auth()
+->setSess
+->getSess
+->setLogoffURL
+->setLoginURL
+->setHomeURL
+->verify
+->logoff()
+->setDbAutentication
+->setDbKeyField
+->setDbUserField
+->setDbPasswordField
+->setDbEmailField
+->setDbCryptkeyField
+->setUser
+->setPassword
+->setEmail
+->setCryptkey
+->dbAuth
+->passwordlessAuth
+->recordFields
+->recordSession
+->setCrypttype
+new Oraculum\Auth()
+
+use Oraculum\CliApp;
+new CliApp()
+->addMethod
+->start
+->setDefaultText
+->setErrorText
+->setDefaultText()->setErrorText()->start($argv)
+new Oraculum\CliApp()
+
+use Oraculum\Controls;
+new Controls()
+->loadPage
+->loadHelper
+new Oraculum\Controls()
+
+use Oraculum\Crypt;
+Crypt::strCrypt
+Crypt::strDecrypt
+Crypt::blowfish
+Crypt::blowfishCheck
+Oraculum\Crypt::strCrypt
+Oraculum\Crypt::strDecrypt
+Oraculum\Crypt::blowfish
+Oraculum\Crypt::blowfishCheck
+
+use Oraculum\ActiveRecord;
+->getLines
+->getAll
+->getFirst
+->getLast()
+->getByTableField
+->getAllByTableField
+->filterByTableField
+->fetch
+->insert
+->update
+->delete()
+->save()
+->setKey
+->updateKeyValue()
+->getKeyValue
+->getFieldList()
+->getValidateMsg()
+->secsql
+->validate()
+->getResult()
+
+use Oraculum\Exception;
+Exception::start()
+Exception::stop()
+Exception::displayErrors()
+Oraculum\Exception::start()
+Oraculum\Exception::stop()
+Oraculum\Exception::displayErrors()
+
+
+use Oraculum\HTTP;
+HTTP::redirect
+HTTP::ip()
+HTTP::host()
+HTTP::referer()
+Oraculum\HTTP::redirect
+Oraculum\HTTP::ip()
+Oraculum\HTTP::host()
+Oraculum\HTTP::referer()
+
+use Oraculum\Logs;
+Logs::alert
+Logs::showException
+Oraculum\Logs::alert
+Oraculum\Logs::showException
+
+use Oraculum\Model;
+new Model
+Model::closeModel()
+->loadModel
+->saveModel
+->loadModelClass
+->loadDynamicModelClass
+->loadTable
+->generateClass
+->generateDTO
+->generateDAO
+->generateAR
+->getTable
+->getModelName()
+->getInsertId()
+->start()
+->commit()
+->rollback()
+->linhas
+new Oraculum\DBO
+Oraculum\DBO::execSQL
+Oraculum\DBO::dados
+new Oraculum\Model
+Oraculum\Model::closeModel()
+
+use Oraculum\Register;
+Register::set
+Register::get
+Oraculum\Register::set
+Oraculum\Register::get
+
+use Oraculum\Request;
+Request::defineTmpDir
+Request::post
+Request::get
+Request::postUtf8Decode()
+Request::postUtf8Encode()
+Request::getUtf8Decode()
+Request::getUtf8Encode()
+Request::file
+Request::getSess
+Request::setSess
+Request::unsetSess
+Request::initSess()
+Request::setCookie
+Request::getCookie
+Request::getPagina
+Request::getId
+Request::getLast
+Request::getVar
+Request::gets()
+Request::request()
+Request::requestMethod()
+Request::referer()
+Oraculum\Request::defineTmpDir
+Oraculum\Request::post
+Oraculum\Request::get
+Oraculum\Request::postUtf8Decode()
+Oraculum\Request::postUtf8Encode()
+Oraculum\Request::getUtf8Decode()
+Oraculum\Request::getUtf8Encode()
+Oraculum\Request::file
+Oraculum\Request::getSess
+Oraculum\Request::setSess
+Oraculum\Request::unsetSess
+Oraculum\Request::initSess()
+Oraculum\Request::setCookie
+Oraculum\Request::getCookie
+Oraculum\Request::getPagina
+Oraculum\Request::getId
+Oraculum\Request::getLast
+Oraculum\Request::getVar
+Oraculum\Request::gets()
+Oraculum\Request::request()
+Oraculum\Request::requestMethod()
+Oraculum\Request::referer()
+
+use Oraculum\Routes;
+Routes::add
+Oraculum\Routes::add
+
+use Oraculum\Start;
+->setBaseUrl
+->setDefaultPage
+->setErrorPage
+->start
+->start()->setBaseUrl()->setDefaultPage()->setErrorPage()->start();
+Oraculum\Start
+
+use Oraculum\Text;
+Text::moeda
+Text::moedaSql
+Text::data
+Text::dataSql
+Text::hora
+Text::dataHora
+Text::saudacao()
+Text::getpwd
+Text::inflector
+Text:: plural
+Text::removeAcentos
+Text::t
+Text::lang
+Text::httplink
+Text::mascara
+Oraculum\Text::moeda
+Oraculum\Text::moedaSql
+Oraculum\Text::data
+Oraculum\Text::dataSql
+Oraculum\Text::hora
+Oraculum\Text::dataHora
+Oraculum\Text::saudacao()
+Oraculum\Text::getpwd
+Oraculum\Text::inflector
+Oraculum\Text:: plural
+Oraculum\Text::removeAcentos
+Oraculum\Text::t
+Oraculum\Text::lang
+Oraculum\Text::httplink
+Oraculum\Text::mascara
+
+use Oraculum\View;
+new View
+->addTemplate
+->loadPage
+->loadElement
+new Oraculum\View
